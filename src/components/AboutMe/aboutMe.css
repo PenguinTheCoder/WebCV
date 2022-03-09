@@ -1,0 +1,49 @@
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+}
+
+.tekst p {
+    float: left;
+    border-right: 3px solid grey;
+}
+
+.trenutno a {
+    float: right;
+    background-color: rgb(0, 107, 247);
+} 
+
+p a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1px 20px;
+    text-decoration: none;
+  }
+
+p a:hover {
+    background-color: #111;
+   
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.Card p {
+    padding: 10px 20px;
+    color: rgba(240, 225, 205, 0.966);
+}
+
+hr.style-one {
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, rgb(247, 232, 232), #333, #ccc);
+}
+
