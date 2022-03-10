@@ -9,6 +9,13 @@ import ContactForm from './components/Contact/contact.js';
 
 
 class App extends Component {
+
+componentDidMount() {
+  fetch('http://localhost:8080')
+    .then(response => response.json())
+    .then(console.log("connected"))
+}
+
 render () {
   return (
     <div >
